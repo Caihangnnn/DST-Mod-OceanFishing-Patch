@@ -1,0 +1,7 @@
+AddModShadersInit(function()
+    PostProcessorEffects.LEFTHALFMIRROR = PostProcessor:AddPostProcessEffect(resolvefilepath("shaders/win_round_cs6.ksh"))
+end)
+AddModShadersSortAndEnable(function()
+    PostProcessor:SetPostProcessEffectAfter(PostProcessorEffects.LEFTHALFMIRROR, PostProcessorEffects.Lunacy)
+    PostProcessor:EnablePostProcessEffect(PostProcessorEffects.LEFTHALFMIRROR, false)
+end)
