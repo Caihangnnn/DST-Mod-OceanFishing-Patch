@@ -2,11 +2,13 @@
 
 这是 `海钓随机物品` 的依赖补丁模组。补丁本身不复制原模组的完整代码，而是在与原模组同时启用时，对原模组的海钓掉落、空军事件和部分世界生成内容进行追加或覆盖。
 
+Steam 创意工坊订阅链接：[OceanFishing-Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3739717643)
+
 ## 依赖
 
 必须同时启用原模组：
 
-[海钓随机物品 / OceanFishing](https://steamcommunity.com/sharedfiles/filedetails/?id=2710978964)
+[海钓随机物品](https://steamcommunity.com/sharedfiles/filedetails/?id=2710978964)
 
 建议在服务器模组列表中同时勾选原模组和本补丁。本补丁已在 `modinfo.lua` 中声明依赖，并使用更低的 `priority`，以便在原模组及部分可选模组完成世界生成注册后再进行修改。
 

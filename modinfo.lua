@@ -1,7 +1,7 @@
 name = "海钓随机物品-模组物品补丁"
 description = "海钓补丁：增加空军事件次数，可选增加勋章和棱镜物品。"
 author = "StellarVoyage"
-version = "1.0.0"
+version = "1.0.1"
 api_version = 10
 dst_compatible = true
 all_clients_require_mod = true
@@ -80,8 +80,8 @@ configuration_options = {
         label = "增加魔女老师",
         hover = "是否在世界生成中魔女老师",
         options = {
-            {description = "开启", data = true, hover = "稳定不生成魔女岛，但是在档案馆生成老师"},
-            {description = "关闭", data = false, hover = "不在档案馆生成老师，但是开启魔女时不稳定生成魔女岛"},
+            {description = "开启", data = true, hover = "在档案馆生成老师"},
+            {description = "关闭", data = false, hover = "不在档案馆生成老师"},
         },
         default = true,
     },
